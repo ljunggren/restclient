@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<book>
+	<isbn>123</isbn>
+	<title>Web Services for Fun and Profit</title>
+	<quantity>10</quantity>
+	<price>$17.95</price>
+</book>

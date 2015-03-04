@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
+<head></head>
+<body>
+<header1>bid old page header</header1>
+<header2>2 header</header2>
+<textblock>
+	<textblocktitle>text header</textblocktitle>
+	<text>Lorem Ipsum</text>
+</textblock>
+<textblock>
+	<textblocktitle></textblocktitle>
+	<text>Lorem Ipsum</text>
+</textblock>
+<list>
+	<listtitle>Testing different renderings of a table</listtitle>
+	<listitem>First item</listitem>
+	<listitem>Second item</listitem>
+	<listitem>Third item</listitem>
+	<listitem>Fourth item</listitem>
+</list>
+
+</body>
+</html>

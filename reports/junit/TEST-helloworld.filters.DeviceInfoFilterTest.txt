@@ -1,0 +1,4 @@
+Testsuite: helloworld.filters.DeviceInfoFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.007 sec
+
+Testcase: test took 0 sec

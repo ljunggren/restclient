@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
+<head><title>Cadillac SRT</title></head>
+<body>
+<section>
+<id>splash</id>
+<navigationlist>
+    <id>splash_nav</id>  
+	<listtitle></listtitle>
+	<listitem><title>Specs</title><link>spec_class2.html</link><image>images/left_button.png</image></listitem>
+	<listitem><title>Locator</title><link>spec_class2.html</link><image>images/midleft_button.png</image></listitem>
+	<listitem><title>Compare</title><link>spec_class2.html</link><image>images/midright_button.png</image></listitem>
+	<listitem><title>Slideshow</title><link>spec_class2.html</link><image>images/right_button.png</image></listitem>
+</navigationlist>
+</section>
+</body>
+</html>

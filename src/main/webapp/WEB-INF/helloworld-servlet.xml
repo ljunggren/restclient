@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+    
+    <!-- the application context definition for the helloworld DispatcherServlet -->
+    
+  
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages"/>
+    </bean>
+
+    <bean name="/hello.htm" class="helloworld.web.ServletDispatcher">
+        <property name="productManager" ref="productManager"/>
+    </bean>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    
+    <bean name="/priceincrease.htm" class="helloworld.web.PriceIncreaseFormController">
+        <property name="sessionForm" value="true"/>
+        <property name="commandName" value="priceIncrease"/>
+        <property name="commandClass" value="helloworld.service.PriceIncrease"/>
+        <property name="validator">
+            <bean class="helloworld.service.PriceIncreaseValidator"/>
+        </property>
+        <property name="formView" value="priceincrease"/>
+        <property name="successView" value="hello.htm"/>
+        <property name="productManager" ref="productManager"/>
+    </bean>
+    
+    <bean name="/xmlprocessor.htm" class="helloworld.web.XmlProcessorController">
+        <property name="sessionForm" value="true"/>
+        <property name="commandName" value="processXML"/>
+        <property name="commandClass" value="helloworld.service.XMLProcessor"/>
+        <property name="validator">
+            <bean class="helloworld.service.PriceIncreaseValidator"/>
+        </property>
+        <property name="formView" value="priceincrease"/>
+        <property name="successView" value="xmlprocessor.htm"/>
+       
+    </bean>
+
+</beans>

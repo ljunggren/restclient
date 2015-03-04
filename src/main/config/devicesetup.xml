@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="devicename.nokia">Nokia</entry>
+    <entry key="match.nokia">Nokia.*</entry>
+    <entry key="csstype.nokia">class2</entry>
+    <entry key="xsltype.nokia">class2</entry>
+    
+    <entry key="devicename.se">Sony Ericsson</entry>
+    <entry key="match.se">SonyEricsson.*</entry>
+    <entry key="csstype.se">class3</entry>
+    <entry key="xsltype.se">class3</entry>
+    
+    <entry key="devicename.iphone">IPhone</entry>
+    <entry key="match.iphone">IPhone.*</entry>
+    <entry key="csstype.iphone">iphone</entry>
+    <entry key="xsltype.iphone">class2</entry>
+     
+    <entry key="devicename.default">default</entry>
+    <entry key="match.default">default</entry>
+    <entry key="csstype.default">class1</entry>
+    <entry key="xsltype.default">class1</entry>
+</properties>
