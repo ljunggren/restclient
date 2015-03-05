@@ -19,7 +19,7 @@ public class ServerCallsStepDefinitions {
     private String filename = "defaultfn"; 
     private String servlet = "defaultsl"; 
 	
-    private String urlbase = "http://localhost:8080/parsley-1.0.0/";
+    private String urlbase = "http://localhost:8080/restclient-1.0.0/";
     
 	@Given("^a user has a '(.+)' device$")
 	public void a_user_has_a_device(String device) throws Throwable {

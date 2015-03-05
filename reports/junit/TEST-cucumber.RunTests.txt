@@ -1,5 +1,5 @@
 Testsuite: cucumber.RunTests
-Tests run: 45, Failures: 0, Errors: 0, Time elapsed: 0.297 sec
+Tests run: 45, Failures: 0, Errors: 0, Time elapsed: 0.373 sec
 ------------- Standard Output ---------------
 Feature: Depositing money in to a User account
 
@@ -40,7 +40,7 @@ Feature: Depositing money in to a User account
 
 5 Scenarios ([33m1 undefined[0m, [32m4 passed[0m)
 25 Steps ([36m4 skipped[0m, [33m1 undefined[0m, [32m20 passed[0m)
-0m0.218s
+0m0.247s
 
 
 You can implement missing steps with the snippets below:
@@ -53,62 +53,62 @@ public void a_user_has_a_device() throws Throwable {
 
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions a_user_has_a_device
+Mar 04, 2015 7:28:54 PM cucumber.ServerCallsStepDefinitions a_user_has_a_device
 INFO: Device = Nokia
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
+Mar 04, 2015 7:28:54 PM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
 INFO: Page = fileservlet
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
+Mar 04, 2015 7:28:54 PM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
 INFO: Filename = tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+Mar 04, 2015 7:28:54 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
 INFO: To compare with cssclass = class2.css
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
-INFO: The resulting test uses the user-agent string Nokia to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
+Mar 04, 2015 7:28:54 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+INFO: The resulting test uses the user-agent string Nokia to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
 INFO: To compare with cssclass = class2
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
-INFO: The resulting test uses the user-agent string Nokia to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions a_user_has_a_device
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
+INFO: The resulting test uses the user-agent string Nokia to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions a_user_has_a_device
 INFO: Device = SonyEricsson
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
 INFO: Page = fileservlet
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
 INFO: Filename = tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
 INFO: To compare with cssclass = class3.css
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
-INFO: The resulting test uses the user-agent string SonyEricsson to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+INFO: The resulting test uses the user-agent string SonyEricsson to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
 INFO: To compare with cssclass = class3
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
-INFO: The resulting test uses the user-agent string SonyEricsson to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions a_user_has_a_device
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
+INFO: The resulting test uses the user-agent string SonyEricsson to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions a_user_has_a_device
 INFO: Device = default
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
 INFO: Page = fileservlet
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
 INFO: Filename = tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
 INFO: To compare with cssclass = class1.css
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
-INFO: The resulting test uses the user-agent string default to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+INFO: The resulting test uses the user-agent string default to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
 INFO: To compare with cssclass = class1
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
-INFO: The resulting test uses the user-agent string default to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions a_user_has_a_device
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
+INFO: The resulting test uses the user-agent string default to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions a_user_has_a_device
 INFO: Device = xxxxxxx
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions accessing_the_fileservlet
 INFO: Page = fileservlet
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions using_the_filename_tablesample_xml
 INFO: Filename = tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
 INFO: To compare with cssclass = class1.css
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
-INFO: The resulting test uses the user-agent string xxxxxxx to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions the_content_returned_should_be_styled_by_class_
+INFO: The resulting test uses the user-agent string xxxxxxx to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
 INFO: To compare with cssclass = class1
-Jun 13, 2014 11:24:51 AM cucumber.ServerCallsStepDefinitions transformed_by_class_
-INFO: The resulting test uses the user-agent string xxxxxxx to access :http://localhost:8080/parsley-1.0.0/fileservlet?filename=tablesample.xml
+Mar 04, 2015 7:28:55 PM cucumber.ServerCallsStepDefinitions transformed_by_class_
+INFO: The resulting test uses the user-agent string xxxxxxx to access :http://localhost:8080/restclient-1.0.0/fileservlet?filename=tablesample.xml
 ------------- ---------------- ---------------
 
 Testcase: Given a user has a 'Nokia' device took 0.001 sec
@@ -124,8 +124,8 @@ Testcase: Then the content returned should be styled by 'class3.css' took 0 sec
 Testcase: And transformed by 'class3' took 0 sec
 Testcase: | SonyEricsson | fileservlet | tablesample.xml | class3.css | class3 | took 0 sec
 Testcase: Given a user has a 'default' device took 0 sec
-Testcase: When accessing the 'fileservlet' took 0.001 sec
-Testcase: And using the filename 'tablesample.xml' took 0 sec
+Testcase: When accessing the 'fileservlet' took 0 sec
+Testcase: And using the filename 'tablesample.xml' took 0.001 sec
 Testcase: Then the content returned should be styled by 'class1.css' took 0 sec
 Testcase: And transformed by 'class1' took 0 sec
 Testcase: | default | fileservlet | tablesample.xml | class1.css | class1 | took 0 sec

@@ -1,3 +1,4 @@
+
 # ---------------------------------------------------------------------------
 # Imports
 # ---------------------------------------------------------------------------
@@ -13,7 +14,7 @@ MAIN_BUNDLE      = 'src/main/resources/Bundle.properties'
 #end[0]
 
 
-PROJECT = 'parsley'
+PROJECT = 'restclient'
 VERSION = '1.0.0'
 THIS_VERSION     = "#{VERSION}"
 THIS_POM         = "target/#{PROJECT}-#{VERSION}.pom"
@@ -29,6 +30,7 @@ repositories.remote << "http://repo1.maven.org/maven2"
 repositories.release_to = "/Library/Tomcat/webapps/"
 
 JUNIT = 'junit:junit:jar:4.11'
+COMMONS_IO = 'commons-io:commons-io:jar:2.3'
 SERVLET_API = 'javax.servlet:servlet-api:jar:2.5'
 COMMONS_LOGGING = 'commons-logging:commons-logging:jar:1.1.1'
 CUCUMBER_JUNIT = 'info.cukes:cucumber-junit:jar:1.1.5'
@@ -44,30 +46,30 @@ CGLIB = 'cglib:cglib:jar:3.1'
 XOM = 'xom:xom:jar:1.2.5'
 STAX = 'stax:stax:jar:1.2.0_rc2-dev'
 CUCUMBER_REPORTING = 'net.masterthought:cucumber-reporting:jar:0.0.23'
+REST_ASSURED = 'com.jayway.restassured:rest-assured:jar:2.4.0'
 
-
-Project.local_task :tomcat
+Project.local_task :wildfly
 Project.local_task :deploy
 
-desc "The Parsley project"
+desc "The Restclient project"
 
-define "parsley" do
+define "restclient" do
 
   project.version = THIS_VERSION
   project.group = THIS_GROUP
   manifest["Implementation-Vendor"] = COPYRIGHT
-  compile.with SERVLET_API, COMMONS_LOGGING, CUCUMBER_JUNIT, CUCUMBER_JAVA, CUCUMBER_DEPS, CUCUMBER_CORE, GHERKIN, XMLPULL, DOM4J, JDOM, WOODSTOX, CGLIB, XOM, STAX, JUNIT, CUCUMBER_REPORTING
+  compile.with SERVLET_API, COMMONS_LOGGING, CUCUMBER_JUNIT, CUCUMBER_JAVA, CUCUMBER_DEPS, CUCUMBER_CORE, GHERKIN, XMLPULL, DOM4J, JDOM, WOODSTOX, CGLIB, XOM, STAX, JUNIT, CUCUMBER_REPORTING, REST_ASSURED
   resources
   test.compile.with # Add classpath dependencies
   #test.exclude 'cucumber.*'
 
   test.resources
   package(:war)
-  task :tomcat => :package do
-    system '/Library/Tomcat/bin/shutdown.sh'
-    system 'rm -rf /Library/Tomcat/webapps/parsley*'
-    system 'cp target/*.war /Library/Tomcat/webapps/'
-    system '/Library/Tomcat/bin/catalina.sh start'
+  task :wildfly => :package do
+    system '~/Work/wildfly-8.2.0.Final/bin/jboss-cli.sh --connect command=:shutdown'
+    system 'rm -rf ~/Work/wildfly-8.2.0.Final/standalone/deployments/restclient-1.0.0*'
+    system 'cp target/*.war ~/Work/wildfly-8.2.0.Final/standalone/deployments/'
+    system '~/Work/wildfly-8.2.0.Final/bin/standalone.sh &'
   end
   package(:war)
   task :deploy => :package do

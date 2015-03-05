@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Matss-MacBook-Air.local" name="helloworld.filters.DeviceInfoFilterTest" tests="1" time="0.0070" timestamp="2014-06-13T03:24:51">
+<testsuite errors="0" failures="0" hostname="Matss-MacBook-Air.local" name="helloworld.filters.DeviceInfoFilterTest" tests="1" time="0.006" timestamp="2015-03-05T00:28:55">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
-    <property name="java.vm.version" value="20.65-b04-462" />
-    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib" />
+    <property name="java.vm.version" value="25.25-b02" />
+    <property name="user.country.format" value="CA" />
     <property name="gopherProxySet" value="false" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
-    <property name="mrj.build" value="11M4609" />
-    <property name="ant.java.version" value="1.6" />
-    <property name="java.vm.vendor" value="Apple Inc." />
-    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="path.separator" value=":" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -18,56 +17,55 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.os.patch.level" value="unknown" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="user.dir" value="/Users/matsljunggren/Workspace/parsley" />
-    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
-    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
-    <property name="basedir" value="/Users/matsljunggren/Workspace/parsley" />
-    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="user.dir" value="/Users/matsljunggren/Workspace/restclient" />
+    <property name="java.runtime.version" value="1.8.0_25-b17" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="basedir" value="/Users/matsljunggren/Workspace/restclient" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed" />
     <property name="os.arch" value="x86_64" />
     <property name="ant.project.default-target" value="" />
     <property name="java.io.tmpdir" value="/var/folders/hc/y55jyyrs1894_qwygm8nttf80000gn/T/" />
     <property name="ant.core.lib" value="/Users/matsljunggren/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar" />
     <property name="line.separator" value="&#xa;" />
-    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="os.name" value="Mac OS X" />
     <property name="ant.project.name" value="junit" />
-    <property name="sun.jnu.encoding" value="MacRoman" />
-    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.library.path" value="/Users/matsljunggren/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="java.class.version" value="50.0" />
+    <property name="java.class.version" value="52.0" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-    <property name="os.version" value="10.9.3" />
+    <property name="os.version" value="10.10.2" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="user.home" value="/Users/matsljunggren" />
-    <property name="user.timezone" value="" />
-    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
-    <property name="file.encoding" value="MacRoman" />
-    <property name="java.specification.version" value="1.6" />
+    <property name="user.timezone" value="America/Montreal" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
     <property name="user.name" value="matsljunggren" />
-    <property name="java.class.path" value="/Users/matsljunggren/Workspace/parsley/target/test/classes:/Users/matsljunggren/Workspace/parsley/target/test/resources:/Users/matsljunggren/Workspace/parsley/target/classes:/Users/matsljunggren/Workspace/parsley/target/resources:/Users/matsljunggren/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/matsljunggren/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-java/1.1.5/cucumber-java-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-core/1.1.5/cucumber-core-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/matsljunggren/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/matsljunggren/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/matsljunggren/.m2/repository/org/jdom/jdom-legacy/1.1.3/jdom-legacy-1.1.3.jar:/Users/matsljunggren/.m2/repository/org/codehaus/woodstox/wstx-lgpl/3.2.6/wstx-lgpl-3.2.6.jar:/Users/matsljunggren/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/matsljunggren/.m2/repository/xom/xom/1.2.5/xom-1.2.5.jar:/Users/matsljunggren/.m2/repository/stax/stax/1.2.0_rc2-dev/stax-1.2.0_rc2-dev.jar:/Users/matsljunggren/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/matsljunggren/.m2/repository/net/masterthought/cucumber-reporting/0.0.23/cucumber-reporting-0.0.23.jar:/Users/matsljunggren/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/matsljunggren/.m2/repository/org/jmock/jmock/2.5.1/jmock-2.5.1.jar:/Users/matsljunggren/.m2/repository/org/jmock/jmock-junit4/2.5.1/jmock-junit4-2.5.1.jar:/Users/matsljunggren/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/matsljunggren/.m2/repository/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar" />
-    <property name="java.vm.specification.version" value="1.0" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/matsljunggren/Workspace/parsley/junittestcases8751898614077646078.properties filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/matsljunggren/Workspace/parsley/reports/junit/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matsljunggren/Workspace/parsley/reports/junit/IGNORETHIS.xml crashfile=/Users/matsljunggren/Workspace/parsley/junitvmwatcher1471460780952226841.properties propsfile=/Users/matsljunggren/Workspace/parsley/junit7681205507708270652.properties" />
-    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.class.path" value="/Users/matsljunggren/Workspace/restclient/target/test/classes:/Users/matsljunggren/Workspace/restclient/target/test/resources:/Users/matsljunggren/Workspace/restclient/target/classes:/Users/matsljunggren/Workspace/restclient/target/resources:/Users/matsljunggren/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/matsljunggren/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-junit/1.1.5/cucumber-junit-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-java/1.1.5/cucumber-java-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/matsljunggren/.m2/repository/info/cukes/cucumber-core/1.1.5/cucumber-core-1.1.5.jar:/Users/matsljunggren/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/matsljunggren/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/matsljunggren/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/matsljunggren/.m2/repository/org/jdom/jdom-legacy/1.1.3/jdom-legacy-1.1.3.jar:/Users/matsljunggren/.m2/repository/org/codehaus/woodstox/wstx-lgpl/3.2.6/wstx-lgpl-3.2.6.jar:/Users/matsljunggren/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/matsljunggren/.m2/repository/xom/xom/1.2.5/xom-1.2.5.jar:/Users/matsljunggren/.m2/repository/stax/stax/1.2.0_rc2-dev/stax-1.2.0_rc2-dev.jar:/Users/matsljunggren/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/matsljunggren/.m2/repository/net/masterthought/cucumber-reporting/0.0.23/cucumber-reporting-0.0.23.jar:/Users/matsljunggren/.m2/repository/com/jayway/restassured/rest-assured/2.4.0/rest-assured-2.4.0.jar:/Users/matsljunggren/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/matsljunggren/.m2/repository/org/jmock/jmock/2.5.1/jmock-2.5.1.jar:/Users/matsljunggren/.m2/repository/org/jmock/jmock-junit4/2.5.1/jmock-junit4-2.5.1.jar:/Users/matsljunggren/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/matsljunggren/.m2/repository/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/Users/matsljunggren/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/matsljunggren/Workspace/restclient/junittestcases2039815194500611127.properties filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/matsljunggren/Workspace/restclient/reports/junit/IGNORETHIS.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matsljunggren/Workspace/restclient/reports/junit/IGNORETHIS.xml crashfile=/Users/matsljunggren/Workspace/restclient/junitvmwatcher639693989602368094.properties propsfile=/Users/matsljunggren/Workspace/restclient/junit6626661976729797035.properties" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="user.language" value="en" />
-    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="java.version" value="1.6.0_65" />
-    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
-    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
-    <property name="java.vendor" value="Apple Inc." />
+    <property name="java.version" value="1.8.0_25" />
+    <property name="java.ext.dirs" value="/Users/matsljunggren/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
     <property name="file.separator" value="/" />
-    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="sun.cpu.endian" value="little" />
-    <property name="mrj.version" value="1070.1.6.0_65-462" />
-    <property name="baseDir" value="/Users/matsljunggren/Workspace/parsley/target/test/classes" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="baseDir" value="/Users/matsljunggren/Workspace/restclient/target/test/classes" />
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="sun.cpu.isalist" value="" />
   </properties>
-  <testcase classname="helloworld.filters.DeviceInfoFilterTest" name="test" time="0.0010" />
+  <testcase classname="helloworld.filters.DeviceInfoFilterTest" name="test" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
