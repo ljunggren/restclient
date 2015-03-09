@@ -57,7 +57,7 @@ public class ServerCallsStepDefinitions {
 
 	@Then("^transformed by '(.+)'$")
 	public void transformed_by_class_(String xslclass) throws Throwable {
-		LOGGER.info("To compare with cssclass = " + xslclass);
+		LOGGER.info("To compare with xslclass = " + xslclass);
 		String urlString = urlbase + servlet + "?filename=" + filename;
 		LOGGER.info("The resulting test uses the user-agent string " + ua + " to access :"+ urlString);		   
 		
